@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="fname flex">
+            <label for="fname" class="first">First Name</label>
+            <input type="text" name="fname" id="fname" class="second input">
+        </div>
+        <div class="lname flex">
+            <label for="lname" class="first">Last Name</label>
+            <input type="text" name="lname" id="lname" class="second input">
+        </div>
+        <div class="email flex">
+            <label for="email" class="first">Email</label>
+            <input type="email" name="email" id="email" class="second input">
+        </div>
+        <div class="mobile flex">
+            <label for="mobile" class="first">Mobile</label>
+            <input type="number" name="mobile" id="mobile" class="second input">
+        </div>
+        <div class="gender flex">
+            <div class="first">
+                <p>Gender</p>
+            </div>
+            <div class="flex second">
+                <div class="male flex">
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">male</label>
+                </div>
+                <div class="female flex">
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+        </div>
+        <div class="dob flex">
+            <label for="dob" class="first">Date of Birth</label>
+            <input type="date" name="dob" id="dob" class="second input">
+        </div>
+        <div class="address flex">
+            <label for="address" class="first">Address</label>
+            <textarea name="address" id="address" cols="30" rows="10" class="second input"></textarea>
+        </div>
+        <div class="city flex">
+            <label for="city" class="first">City</label>
+            <input type="text" name="city" id="city" class="second input">
+        </div>
+        <div class="pin flex">
+            <label for="pin" class="first">Area Pin</label>
+            <input type="number" name="pin" id="pin" class="second input">
+        </div>
+        <div class="state flex">
+            <label for="state" class="first">State</label>
+            <input type="text" name="state" id="state" class="second input">
+        </div>
+        <div class="qualification flex">
+            <label for="qualification" class="first">Qualification</label>
+            <select name="qualification" id="qualification" class="second input">
+                <option value="null">Select Qualification</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="graduation">graduation</option>
+            </select>
+        </div>
+        <div class="specialization flex">
+            <p class="first">specialization</p>
+            <div class="checkbox" class="second">
+                <div class="cs">
+                    <input type="checkbox" name="cs" id="cs">
+                    <label for="cs">Computer Science</label>
+                </div>
+                <div class="it">
+                    <input type="checkbox" name="it" id="it">
+                    <label for="it">Information Technology</label>
+                </div>
+                <div class="ca">
+                    <input type="checkbox" name="ca" id="ca">
+                    <label for="ca">Computer Architecture</label>
+                </div>
+                <div class="tc">
+                    <input type="checkbox" name="tc" id="tc">
+                    <label for="tc">Tele communication</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="password flex">
+            <label for="password" class="first">Password</label>
+            <input type="password" name="password" id="password" class="second input">
+        </div>
+        <div>
+            <button type="submit" class="register">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>

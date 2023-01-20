@@ -1,0 +1,31 @@
+form{
+    width: 90vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.first{
+    width: 10%;
+}
+.second{
+    width: 90%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.input{
+    width: 80%;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.register{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
